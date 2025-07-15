@@ -1,0 +1,34 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables
+.env
+.env.*        # optional if you use .env.dev, .env.prod, etc.
+!.env.example # helpful if you want to share env variable structure
+
+# Build outputs
+dist/
+build/
+
+# Vite cache
+.cache/
+.vite/
+
+# ESLint and stylelint cache
+.eslintcache
+.stylelintcache
+
+# Supabase 
+.supabase/
+
+# VSCode settings 
+.vscode/
